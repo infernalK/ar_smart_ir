@@ -3,7 +3,9 @@
 [![GitHub release](https://img.shields.io/github/v/release/marsh4200/ar_smart_ir.svg)](https://github.com/marsh4200/ar_smart_ir/releases)
 [![HACS Custom](https://img.shields.io/badge/HACS-Custom-orange.svg)](https://github.com/custom-components/hacs)
 
-[![Open your Home Assistant instance and open this repository in HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?repository=marsh4200/ar_smart_ir&category=integration)
+
+[![Add to HACS](https://my.home-assistant.io/badges/hacs_repository.svg)](
+  https://my.home-assistant.io/redirect/hacs_repository/?owner=marsh4200&repository=marsh4200/ar_smart_ir&category=integration)
 
 **AR Smart IR** is a modern infrared control integration for **Home Assistant** that allows you to control devices such as **TVs, air conditioners, projectors, fans, lights, and media players** using IR transmitters.
 
