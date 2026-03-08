@@ -158,3 +158,16 @@ Fans
 Lights
 
 Device control is achieved by sending infrared commands through supported controller platforms.
+
+
+🙌 Credits
+
+AR Smart IR is inspired by earlier infrared integration concepts developed by the Home Assistant community.
+
+This project focuses on improving usability, modern compatibility, and UI-based setup for infrared device control.
+
+📌 Notes
+
+AR Smart IR provides a cleaner and more modern IR integration experience for Home Assistant.
+
+By removing YAML configuration and enabling full UI setup, it simplifies infrared device management for both users and installers.
