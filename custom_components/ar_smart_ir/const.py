@@ -1,7 +1,7 @@
 from __future__ import annotations
 
-DOMAIN = "smartir"
-VERSION = "1.19.0-ui"
+DOMAIN = "ar_smart_ir"
+VERSION = "0.0.3"
 
 CONF_PLATFORM = "platform"
 CONF_UNIQUE_ID = "unique_id"
@@ -20,7 +20,9 @@ CONF_UPDATE_BRANCH = "update_branch"
 
 DEFAULT_DELAY = 0.5
 DEFAULT_DEVICE_CLASS = "tv"
+
 PLATFORMS = ["climate", "fan", "light", "media_player"]
+
 PLATFORM_TITLES = {
     "climate": "Climate",
     "fan": "Fan",
