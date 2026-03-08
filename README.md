@@ -52,29 +52,38 @@ AR Smart IR is designed to modernize legacy IR control in Home Assistant.
 
 ---
 
-## 📦 Installation
+📦 Installation
+Manual Installation
 
-### Manual Installation
+Copy the integration into your Home Assistant custom_components directory:
 
-Copy the integration into your Home Assistant `custom_components` directory:
-
-```text
 config/
 └── custom_components/
     └── ar_smart_ir/
         ├── __init__.py
         ├── manifest.json
         ├── config_flow.py
+        ├── controller.py
         ├── climate.py
         ├── fan.py
         ├── light.py
         ├── media_player.py
-        ├── controller.py
         ├── services.yaml
         ├── strings.json
+        ├── icons.json
+        │
         ├── translations/
         │   └── en.json
-        └── icons.json
+        │
+        └── codes/
+            ├── climate/
+            │   └── example_ac.json
+            ├── media_player/
+            │   └── example_tv.json
+            ├── fan/
+            │   └── example_fan.json
+            └── light/
+                └── example_light.json
 
 Then:
 
